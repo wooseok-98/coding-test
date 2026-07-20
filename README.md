@@ -20,7 +20,7 @@
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
-| [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 1 | [코드](Python3/프로그래머스/1/42576.완주하지　못한　선수/) | `list.remove()`가 O(n) → 루프 안에서 O(n²) 타임아웃. `Counter` 뺄셈으로 O(n) |
+| [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 1 | [코드](Python3/프로그래머스/1/42576. 완주하지 못한 선수/완주하지 못한 선수.py) | `list.remove()`가 O(n) → 루프 안에서 O(n²) 타임아웃. `Counter` 뺄셈으로 O(n) |
 
 </details>
 
