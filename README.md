@@ -16,11 +16,12 @@
 ## 문제 인덱스
 
 <details open>
-<summary><b>해시</b> — 카운팅, 딕셔너리 활용 <b>(1)</b></summary>
+<summary><b>해시</b> — 카운팅, 딕셔너리 활용 <b>(2)</b></summary>
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 1 | [코드](Python3/프로그래머스/1/42576. 완주하지 못한 선수/완주하지 못한 선수.py) | `list.remove()`가 O(n) → 루프 안에서 O(n²) 타임아웃. `Counter` 뺄셈으로 O(n) |
+| [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) | 1 | [코드](Python3/프로그래머스/1/1845. 폰켓몬/폰켓몬.py) | 실제 선택 x → 종류 개수만 출력 |
 
 </details>
 
