@@ -3,8 +3,8 @@ def solution(numbers):
     result = set()
     
     for i in range(len(numbers)):
-        for j in range(1, len(numbers)-i):
-            result.add(numbers[i]+numbers[i+j])
+        for j in range(i+1, len(numbers)):
+            result.add(numbers[i]+numbers[j])
 
     answer = list(result)
     answer.sort()
