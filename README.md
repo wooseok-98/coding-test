@@ -16,13 +16,16 @@
 ## 문제 인덱스
 
 <details open>
-<summary><b>해시</b> — 카운팅, 딕셔너리 활용 <b>(3)</b></summary>
+<summary><b>해시</b> — 카운팅, 딕셔너리 활용 <b>(6)</b></summary>
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 1 | [코드](Python3/프로그래머스/1/42576. 완주하지 못한 선수/완주하지 못한 선수.py) | `list.remove()`가 O(n) → 루프 안에서 O(n²) 타임아웃. `Counter` 뺄셈으로 O(n) |
 | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) | 1 | [코드](Python3/프로그래머스/1/1845. 폰켓몬/폰켓몬.py) | 실제 선택 x → min(종류 수, 뽑는 수) 두 상한 중 작은 값 |
 | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 1 | [코드](Python3/프로그래머스/1/68644. 두 개 뽑아서 더하기/두 개 뽑아서 더하기.py) | 중복제거 set, 정렬 list.sort() 사용 |
+| [최빈값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120812) | 0 | [코드](Python3/프로그래머스/0/120812. 최빈값 구하기/최빈값 구하기.py) | Counter객체 - most_common(): 많은 것부터 내림 차순 |
+| [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | [코드](Python3/프로그래머스/1/86051. 없는 숫자 더하기/없는 숫자 더하기.py) | |
+| [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | **2** | [코드](Python3/프로그래머스/2/42578. 의상/의상.py) | dict.items(), Counter 사용 가능 |
 
 </details>
 
@@ -31,7 +34,7 @@
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
-| [자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) | 1 | [코드](Python3/프로그래머스/1/12932. 자연수 뒤집어 배열로 만들기/자연수 뒤집어 배열로 만들기.py) | 2중 반복문 사용 / **map, reversed(str)** 사용 가능|
+| [자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) | 1 | [코드](Python3/프로그래머스/1/12932. 자연수 뒤집어 배열로 만들기/자연수 뒤집어 배열로 만들기.py) | **map, reversed(str)** 사용 가능|
 
 </details>
 
