@@ -1,8 +1,5 @@
 def solution(numbers):
     
-    nums = range(10)
+    answer = sum(range(10)) - sum(numbers)
     
-    none = set(nums)-set(numbers)
-    
-    answer = sum(none)
     return answer
