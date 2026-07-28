@@ -16,7 +16,7 @@
 ## 문제 인덱스
 
 <details open>
-<summary><b>해시</b> — 카운팅, 딕셔너리 활용 <b>(6)</b></summary>
+<summary><b>해시</b> — 카운팅, 딕셔너리 활용 <b>(7)</b></summary>
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
@@ -26,15 +26,18 @@
 | [최빈값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120812) | 0 | [코드](Python3/프로그래머스/0/120812. 최빈값 구하기/최빈값 구하기.py) | Counter객체 - most_common(): 많은 것부터 내림 차순 |
 | [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | [코드](Python3/프로그래머스/1/86051. 없는 숫자 더하기/없는 숫자 더하기.py) | |
 | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | **2** | [코드](Python3/프로그래머스/2/42578. 의상/의상.py) | dict.items(), Counter 사용 가능 |
+| [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | **2** | [코드](Python3/프로그래머스/2/42577. 전화번호 목록/전화번호 목록.py) | 문자열 sort() 형태 / string.startswith() |
 
 </details>
 
 <details>
-<summary><b>구현 · 문자열</b> — 시뮬레이션, 문자열 처리 <b>(1)</b></summary>
+<summary><b>구현 · 문자열</b> — 시뮬레이션, 문자열 처리 <b>(3)</b></summary>
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
 | [자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) | 1 | [코드](Python3/프로그래머스/1/12932. 자연수 뒤집어 배열로 만들기/자연수 뒤집어 배열로 만들기.py) | **map, reversed(str)** 사용 가능|
+| [시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926) | 1 | [코드](Python3/프로그래머스/1/12926. 시저 암호/시저 암호.py) | chr(ord('a'))|
+| [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | 1 | [코드](Python3/프로그래머스/1/72410. 신규 아이디 추천/신규 아이디 추천.py) | s.lower() / replace(,), s.isalnum()|
 
 </details>
 
