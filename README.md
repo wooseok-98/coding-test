@@ -37,7 +37,7 @@
 | --- | --- | --- | --- |
 | [자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) | 1 | [코드](Python3/프로그래머스/1/12932. 자연수 뒤집어 배열로 만들기/자연수 뒤집어 배열로 만들기.py) | **map, reversed(str)** 사용 가능|
 | [시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926) | 1 | [코드](Python3/프로그래머스/1/12926. 시저 암호/시저 암호.py) | chr(ord('a'))|
-| [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | 1 | [코드](Python3/프로그래머스/1/72410. 신규 아이디 추천/신규 아이디 추천.py) | s.lower() / replace(,), s.isalnum()|
+| [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | 1 | [코드](Python3/프로그래머스/1/72410. 신규 아이디 추천/신규 아이디 추천.py) | s.lower() / replace(,), s.isalnum():|
 
 </details>
 
@@ -52,11 +52,11 @@
 </details>
 
 <details>
-<summary><b>완전탐색</b> — 브루트포스, 순열 · 조합 <b>(0)</b></summary>
+<summary><b>완전탐색</b> — 브루트포스, 순열 · 조합 <b>(1)</b></summary>
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
-| | | | |
+| [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | 1 | [코드](Python3/프로그래머스/1/42840. 모의고사/모의고사.py) | for idx, value in enumerate()|
 
 </details>
 
