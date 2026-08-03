@@ -52,11 +52,12 @@
 </details>
 
 <details>
-<summary><b>완전탐색</b> — 브루트포스, 순열 · 조합 <b>(1)</b></summary>
+<summary><b>완전탐색</b> — 브루트포스, 순열 · 조합 <b>(2)</b></summary>
 
 | 문제 | Lv | 풀이 | 핵심 / 막힌 지점 |
 | --- | --- | --- | --- |
 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | 1 | [코드](Python3/프로그래머스/1/42840. 모의고사/모의고사.py) | for idx, value in enumerate()|
+| [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) | **2** | [코드](Python3/프로그래머스/2/42839. 소수 찾기/소수 찾기.py) | from itertools import permutations / permutations(s, r) → 튜플 반환 → int(''.join()) / 소수 루트n까지 판단|
 
 </details>
 
