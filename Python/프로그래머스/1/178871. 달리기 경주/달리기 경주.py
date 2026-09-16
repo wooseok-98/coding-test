@@ -6,8 +6,8 @@ def solution(players, callings):
         
     for c in callings:
         r = rank[c]
-        rank[players[r]] = rank[players[r]] - 1
-        rank[players[r-1]] = rank[players[r-1]] + 1
+        rank[c] = r - 1
+        rank[players[r-1]] = r
         players[r-1], players[r] = players[r], players[r-1]
         
     return players
