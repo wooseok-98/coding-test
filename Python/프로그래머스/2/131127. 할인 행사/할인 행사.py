@@ -4,7 +4,7 @@ def solution(want, number, discount):
     answer = 0
     
     # 구매 항목+수량
-    shop = Counter()
+    shop = {}
     for i, w in enumerate(want):
         shop[w] = number[i]
     
