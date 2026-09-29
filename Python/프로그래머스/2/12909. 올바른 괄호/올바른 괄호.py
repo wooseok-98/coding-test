@@ -1,20 +1,17 @@
-from collections import deque
-
 def solution(s):
     answer = True
-    q = deque()
+    stack = []
     
     for c in s:
-        if c == ")":
-            if not q:
-                answer = False
-                break
-            else:
-                q.popleft()
+        if c == "(":
+            stack.append(c)
         else:
-            q.append(c)
+            if not stack:
+                answer = False
+            else:
+                stack.pop()
             
-    if q:
+    if stack:
         answer = False
-
+    
     return answer
