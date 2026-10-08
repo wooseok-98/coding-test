@@ -9,15 +9,12 @@ def solution(genres, plays):
     count = Counter()
     
     for i, g in enumerate(genres):
-        songs.setdefault(g, []).append((plays[i], i))
+        songs.setdefault(g, []).append((i, plays[i]))
         count[g] += plays[i]
-        songs[g].sort(key = lambda x: (-x[0], x[1]))
-    
-    print(songs)
-    print(count)
-    
+        songs[g].sort(key = lambda x: (-x[1], x[0]))
+
     for g, _ in count.most_common():
-        for _, idx in songs[g][:2]:
+        for idx, _ in songs[g][:2]:
             answer.append(idx)
     
     return answer
